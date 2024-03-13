@@ -7,9 +7,9 @@ a:visited {
     outline: none;
     color:#986B4A;
 }
-
 a {
     text-decoration: none;
+    color:#986B4A;
 }
 
 /*------NAV-BAR-------------------------------------------------------------*/

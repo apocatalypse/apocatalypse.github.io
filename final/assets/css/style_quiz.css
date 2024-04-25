@@ -10,11 +10,27 @@ body {
     user-select: none;
 }
 
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 23px;
+    }
+
+
+}
+
+@media screen and (min-width:601px) and (max-width: 1025px) {
+    body {
+        font-size: 35px;
+        }
+
+}
+
+
 #home-button {
-    width:30px;
+    width: 30px;
     align-self: flex-start;
     position:fixed;
-    left: 2%;
+    right: 2%;
     top: 2%;
 }
 
@@ -68,7 +84,6 @@ a {
     width: 280px;
     padding: 10px;
 
-    line-height: 20px;
     color: #B7D231;
 }
 

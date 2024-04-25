@@ -31,6 +31,7 @@ a {
     flex-direction: row;
 
     text-align: center;
+    align-self: center;
 }
 
 .column {
@@ -56,6 +57,38 @@ a {
     align-self: center;
 }
 
+@media screen and (max-width: 600px) {
+  body {
+      font-size: 18px;
+  }
+
+  #home-button {
+      width: 20px;
+      align-self: flex-start;
+      position: fixed;
+      right: 2%;
+      top: 2%;
+    }
+}
+
+@media screen and (max-width:600px) {
+  body {
+      font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  body {
+      font-size: 18px;
+    }
+    }
+
+@media screen and (min-width:601px) and (max-width: 1025px) {
+  body {
+      font-size: 23px;
+  }
+}
 
 
 /*scroll bar shit*/

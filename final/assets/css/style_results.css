@@ -9,6 +9,14 @@ body {
     user-select: none;
 }
 
+#home-button {
+    width:30px;
+    align-self: flex-start;
+    position:fixed;
+    left: 2%;
+    top: 2%;
+  }
+
 #main-box {
     display: flex;
     flex-direction: column;

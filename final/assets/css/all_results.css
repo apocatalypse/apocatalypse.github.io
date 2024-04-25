@@ -16,6 +16,14 @@ a {
     cursor: inherit;
 }
 
+#home-button {
+  width:30px;
+  align-self: flex-start;
+  position:fixed;
+  left: 2%;
+  top: 2%;
+}
+
 #main-box {
     max-width: 500px;
 

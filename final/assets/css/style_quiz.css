@@ -1,0 +1,111 @@
+body {
+    background-color: #105540;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 18px;
+    color: #313547;
+    user-select: none;
+}
+
+
+#main-box {
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.img-box {
+    height: 300px;
+    width: 300px;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    background-color:  #B7D231;
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: #313547;
+    cursor: inherit;
+}
+
+.hidden {
+	display: none;
+}
+
+.qset {
+    min-height: 100vh;
+    padding-top: 5%;
+}
+
+.question {  
+    min-height: 50px;
+    width: 280px;
+    padding: 10px;
+
+    line-height: 20px;
+    color: #B7D231;
+}
+
+
+.answer {  
+    min-height: 50px;
+    width: 280px;
+    padding: 10px;
+
+
+    border-radius: 15px;
+
+    margin-bottom: 5%;
+
+    background-color: #B7D231;
+}
+
+#result {
+    min-height: 50px;
+    width: 280px;
+    padding: 10px;
+
+
+    border-radius: 15px;
+
+    margin-top: 30%;
+    margin-bottom: 30%;
+
+    background-color: #ffe641;
+}
+
+/*scroll bar shit*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #105540;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #789F44;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #B7D231;
+  }

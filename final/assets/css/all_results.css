@@ -1,0 +1,73 @@
+body {
+    background-color: #105540;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 15px;
+    color: #B7D231;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: inherit;
+}
+
+#main-box {
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+
+    margin: 2%;
+    margin-top: 10%;
+
+    align-content: center;
+}
+
+.link-to-result {
+    height: 30px;
+    width: 90%;
+}
+
+
+.img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+
+
+/*scroll bar shit*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #105540;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #789F44;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #B7D231;
+  }

@@ -1,0 +1,156 @@
+body {
+    background-color: #105540;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 16px;
+    color: #313547;
+    user-select: none;
+}
+
+#main-box {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    max-width: 330px;
+}
+
+#row-box {
+    display: flex;
+    flex-direction: row;
+    max-width: 330px;
+
+    margin-bottom: 5%;
+
+    justify-content: space-between;
+}
+
+#first-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    justify-content: center;
+}
+
+#second-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#you-are {
+    font-size: 20px;
+    color: #789F44;
+}
+
+#name {
+    font-size: 33px;
+    color: #B7D231;
+}
+
+#aka {
+    font-size: 20px;
+    color: #789F44;
+    margin-bottom: 2%;
+}
+
+#img {
+    max-width: 150px;
+
+}
+
+/*ATTRIBUTES*/
+
+.attr {
+    background-color: #97d231;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 5px;
+    border-radius: 8px;
+    width: 330px;
+    text-align: center;
+}
+
+.attr-title {
+    font-size: 20px;
+    color: #789F44;
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+}
+
+.strength {
+    background-color: #97d231;
+    margin: 2%;
+    padding: 5px;
+
+    margin-bottom: 5%;
+
+
+    border-radius: 8px;
+    text-align: center;
+
+    width: 90%;
+}
+
+.weakness {
+    background-color: #97d231;
+    margin: 2%;
+    margin-bottom: 5%;
+    padding: 5px;
+
+    border-radius: 8px;
+
+    width: 90%;
+    text-align: center;
+}
+
+#fun-fact {
+    color: #789F44;
+}
+
+
+#show_all_results {
+    width: 150px;
+    margin: 10%;
+    padding: 10px;
+    border-radius: 15px;
+    color: #B7D231;
+    background-color: #789F44;
+    align-self: center;
+    text-align: center;
+}
+
+.hover:hover {
+    box-shadow: 3px 3px 0 0 #5171A5;
+    transition: 0.1s all ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: inherit;
+}
+
+/*scroll bar shit*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #105540;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #789F44;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #B7D231;
+  }

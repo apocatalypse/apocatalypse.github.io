@@ -42,6 +42,11 @@ a {
     cursor: inherit;
 }
 
+.hover:hover {
+    box-shadow: 3px 3px 0 0 #5171A5;
+    transition: 0.1s all ease-in-out;
+}
+
 .hidden {
 	display: none;
 }
